@@ -1,8 +1,10 @@
 # Google Search Console verification
 
-The site is ready for either Search Console verification method:
+Completed on 22 July 2026:
 
-1. For a URL-prefix property, paste Google's verification `<meta>` tag in the marked comment in `index.html`, commit, publish and click **Verify**.
-2. For a domain property, add the TXT record supplied by Search Console to the DNS provider. GitHub Pages cannot create that DNS record.
+- URL-prefix property: `https://bnc4vk.github.io/renthuddle-site/`
+- Verification method: HTML meta tag in `index.html`
+- Ownership status: verified
+- Submitted sitemap: `https://bnc4vk.github.io/renthuddle-site/sitemap.xml`
 
-After verification, submit `https://bnc4vk.github.io/renthuddle-site/sitemap.xml`.
+Keep the verification meta tag in the homepage. Search Console accepted the sitemap submission and may take time to fetch and process a newly published sitemap.
