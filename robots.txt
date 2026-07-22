@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+Sitemap: https://bnc4vk.github.io/renthuddle-site/sitemap.xml

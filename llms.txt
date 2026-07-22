@@ -1,0 +1,13 @@
+# RentHuddle
+
+RentHuddle is a Chrome extension by Brahe Labs that saves Rightmove, Zoopla and Zillow listings to a shared Google Sheet.
+
+The user initiates capture on a supported listing page, reviews or edits the extracted property details, and saves the approved data to a selected RentHuddle Google Sheet. The extension has no developer-operated backend, advertising or behavioural analytics. Google processes data saved to the user's Sheet under the terms for that Google account.
+
+Canonical pages:
+- Product: https://bnc4vk.github.io/renthuddle-site/
+- Rightmove to Google Sheets guide: https://bnc4vk.github.io/renthuddle-site/rightmove-to-google-sheets/
+- Comparing rentals with housemates: https://bnc4vk.github.io/renthuddle-site/compare-rentals-with-housemates/
+- Privacy: https://bnc4vk.github.io/renthuddle-site/privacy/
+- Support: https://bnc4vk.github.io/renthuddle-site/support/
+- Chrome Web Store: https://chromewebstore.google.com/detail/renthuddle/emhefjlapefbhnameleoncmpjkcjbblk

@@ -1,0 +1,10 @@
+{
+  "name": "renthuddle-site",
+  "version": "0.1.5",
+  "private": true,
+  "description": "Static product, privacy and support website for RentHuddle by Brahe Labs.",
+  "scripts": {
+    "test": "node scripts/validate-site.mjs",
+    "serve": "python3 -m http.server 4173 --directory .."
+  }
+}

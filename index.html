@@ -1,27 +1,79 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-GB">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="RentHuddle saves rental listings from supported property sites to a structured Google Sheet.">
-    <title>RentHuddle</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>RentHuddle — Compare rentals in one shared Google Sheet</title>
+    <meta name="description" content="Save Rightmove, Zoopla and Zillow listings to a shared Google Sheet. Review details, compare rentals and shortlist with your group.">
+    <link rel="canonical" href="https://bnc4vk.github.io/renthuddle-site/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="RentHuddle — Shared Rental Shortlist">
+    <meta property="og:description" content="Compare Rightmove, Zoopla and Zillow rentals in one shared Google Sheet.">
+    <meta property="og:url" content="https://bnc4vk.github.io/renthuddle-site/">
+    <meta property="og:image" content="https://bnc4vk.github.io/renthuddle-site/assets/promo-marquee-1400x560.png">
+    <meta property="og:image:width" content="1400"><meta property="og:image:height" content="560">
+    <link rel="icon" href="/renthuddle-site/assets/icon-128.png">
     <link rel="stylesheet" href="/renthuddle-site/styles.css">
+    <link rel="stylesheet" href="/renthuddle-site/a11y.css">
+    <!-- Search Console: replace this comment with Google's verification meta tag after the property is created. -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://bnc4vk.github.io/renthuddle-site/#brahe-labs",
+          "name": "Brahe Labs",
+          "url": "https://bnc4vk.github.io/renthuddle-site/",
+          "email": "mailto:bnc4vk@gmail.com"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://bnc4vk.github.io/renthuddle-site/#software",
+          "name": "RentHuddle",
+          "alternateName": "Dwelly Sheets Property Saver",
+          "description": "Save, compare and share rental listings from Rightmove, Zoopla and Zillow in one Google Sheet.",
+          "applicationCategory": "ProductivityApplication",
+          "applicationSubCategory": "Rental property comparison",
+          "operatingSystem": "Chrome",
+          "softwareVersion": "0.1.5",
+          "publisher": { "@id": "https://bnc4vk.github.io/renthuddle-site/#brahe-labs" },
+          "url": "https://bnc4vk.github.io/renthuddle-site/",
+          "downloadUrl": "https://chromewebstore.google.com/detail/renthuddle/emhefjlapefbhnameleoncmpjkcjbblk",
+          "screenshot": [
+            "https://bnc4vk.github.io/renthuddle-site/assets/screenshots/01-save-a-property.png",
+            "https://bnc4vk.github.io/renthuddle-site/assets/screenshots/02-review-every-detail.png",
+            "https://bnc4vk.github.io/renthuddle-site/assets/screenshots/03-compare-in-one-sheet.png",
+            "https://bnc4vk.github.io/renthuddle-site/assets/screenshots/04-shortlist-with-housemates.png",
+            "https://bnc4vk.github.io/renthuddle-site/assets/screenshots/05-shortlist-in-your-account.png"
+          ],
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/InStock" }
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
-    <main class="hero">
-      <div class="mark" aria-hidden="true">R</div>
-      <p class="eyebrow">Chrome extension</p>
-      <h1>Turn property listings into a shortlist you control.</h1>
-      <p class="lede">RentHuddle captures the property details you review from supported listing pages and saves them directly to your own structured Google Sheet.</p>
-      <ul>
-        <li>Works with Rightmove, Zoopla, and Zillow property pages</li>
-        <li>Lets you review and edit every property before saving</li>
-        <li>Has no developer-operated backend, advertising, or analytics</li>
-      </ul>
-      <nav aria-label="RentHuddle information">
-        <a class="primary" href="/renthuddle-site/privacy/">Privacy policy</a>
-        <a href="/renthuddle-site/support/">Support</a>
-      </nav>
+    <header class="site-header"><a class="brand" href="/renthuddle-site/"><img src="/renthuddle-site/assets/icon-128.png" alt="" width="42" height="42"><span>RentHuddle</span></a><nav aria-label="Primary"><a href="#how-it-works">How it works</a><a href="#privacy">Privacy</a><a href="#faq">FAQ</a><a href="/renthuddle-site/support/">Support</a></nav><a class="button button-small" href="https://chromewebstore.google.com/detail/renthuddle/emhefjlapefbhnameleoncmpjkcjbblk">Add to Chrome</a></header>
+    <main>
+      <section class="hero section"><div class="hero-copy"><p class="eyebrow">Shared rental shortlist</p><h1>Compare Rightmove, Zoopla and Zillow rentals in one shared Google Sheet.</h1><p class="lede">Save listings in seconds, review the details, and build a shortlist with housemates, partners or family—without a RentHuddle backend.</p><div class="actions"><a class="button" href="https://chromewebstore.google.com/detail/renthuddle/emhefjlapefbhnameleoncmpjkcjbblk">Add RentHuddle to Chrome</a><a class="text-link" href="#how-it-works">See how it works <span aria-hidden="true">↓</span></a></div><p class="microcopy">Free Chrome extension · Your shortlist is stored in your chosen Google Sheet</p></div><figure class="hero-visual"><img src="/renthuddle-site/assets/screenshots/01-save-a-property.png" alt="RentHuddle Capture Property button open over a supported rental listing" width="1280" height="800"><figcaption>Capture starts only when you choose it.</figcaption></figure></section>
+
+      <section class="trust-strip" aria-label="Product summary"><p>RentHuddle is a Chrome extension by Brahe Labs that saves Rightmove, Zoopla and Zillow listings to a shared Google Sheet.</p></section>
+
+      <section class="section steps" id="how-it-works"><div class="section-heading"><p class="eyebrow">How it works</p><h2>From listing page to shared decision in three steps.</h2></div><ol><li><span>1</span><h3>Capture a listing</h3><p>Open RentHuddle on a supported property-detail page and select <strong>Capture Property</strong>.</p></li><li><span>2</span><h3>Review the details</h3><p>Check the address, price, bedrooms, bathrooms and other captured fields. Correct anything before saving.</p></li><li><span>3</span><h3>Compare it with your group</h3><p>Use the formatted Shortlist tab to compare images, facts, status, ratings and notes.</p></li></ol></section>
+
+      <section class="section split preview"><div><p class="eyebrow">Completed shortlist</p><h2>See the properties and decisions that matter.</h2><p>A RentHuddle Sheet presents each listing in the same set of columns: photo, property, rent, beds, baths, size, type, status, rating, link and notes.</p><a class="text-link" href="/renthuddle-site/compare-rentals-with-housemates/">Read the group shortlisting guide →</a></div><figure><img loading="lazy" src="/renthuddle-site/assets/screenshots/03-compare-in-one-sheet.png" alt="A populated RentHuddle shortlist with three rental properties and comparison fields" width="1280" height="800"><figcaption>A representative RentHuddle Sheet created by the extension.</figcaption></figure></section>
+
+      <section class="section supported"><div class="section-heading"><p class="eyebrow">Supported sites</p><h2>Use the property sites your search already spans.</h2><p>RentHuddle supports Rightmove property pages, Zoopla sale, rental and new-home detail pages, and Zillow home detail pages.</p></div><div class="site-cards"><article><span>R</span><h3>Rightmove</h3><p>Save property details from supported Rightmove listing pages.</p><a href="/renthuddle-site/rightmove-to-google-sheets/">Rightmove to Google Sheets →</a></article><article><span>Z</span><h3>Zoopla</h3><p>Capture supported sale, rental and new-home detail pages.</p></article><article><span>Z</span><h3>Zillow</h3><p>Save supported Zillow home details to your shortlist.</p></article></div></section>
+
+      <section class="section collaboration split"><figure><img loading="lazy" src="/renthuddle-site/assets/screenshots/04-shortlist-with-housemates.png" alt="A shared rental shortlist using ratings, notes and property statuses" width="1280" height="800"><figcaption>Ratings, notes and statuses give the group a shared vocabulary.</figcaption></figure><div><p class="eyebrow">Collaboration</p><h2>Replace scattered links with one shared view.</h2><p>Share the Google Sheet with housemates, a partner or family using Google’s sharing controls. Then record quick ratings, update viewing status and keep decision notes next to each property.</p><ul class="check-list"><li>Rate promising properties from one to five stars.</li><li>Track new, viewed, considering, viewing booked, applied, not a fit and archived states.</li><li>Keep viewing questions and group context in the Notes column.</li></ul></div></section>
+
+      <section class="privacy-band" id="privacy"><div class="section split"><div><p class="eyebrow">Privacy by design</p><h2>The extension has no developer-operated backend.</h2><p>RentHuddle reads supported listing details when you choose Capture Property. You review and edit the data before it is sent over HTTPS to the Google Sheets API and stored in your selected Sheet.</p><a class="text-link" href="/renthuddle-site/privacy/">Read the full privacy policy →</a></div><ul class="privacy-points"><li><strong>User initiated</strong><span>Capture runs only when you choose it on a supported listing page.</span></li><li><strong>Narrow Google access</strong><span>The extension uses the <code>drive.file</code> scope for Sheets it creates or that you explicitly select for RentHuddle.</span></li><li><strong>No ads or analytics</strong><span>The extension does not include advertising or behavioural analytics.</span></li></ul></div></section>
+
+      <section class="section faq" id="faq"><div class="section-heading"><p class="eyebrow">FAQ</p><h2>Questions people ask about RentHuddle.</h2></div><div class="faq-grid"><details><summary>What is RentHuddle?</summary><p>RentHuddle is a Chrome extension by Brahe Labs that saves Rightmove, Zoopla and Zillow listings to a shared Google Sheet. It lets you capture, review and compare rental details without a separate dashboard.</p></details><details><summary>How can I compare rental listings with housemates?</summary><p>Create a RentHuddle Sheet, share it with your housemates using Google’s sharing controls, then compare rent, bedrooms, bathrooms, size and type. Use the status, rating and notes columns to record the group’s decisions.</p></details><details><summary>Can I save Rightmove properties to Google Sheets?</summary><p>Yes. On a supported Rightmove property page, open RentHuddle, choose Capture Property, review the details and save them to your selected RentHuddle Sheet.</p></details><details><summary>Can I save Zillow rentals to a spreadsheet?</summary><p>Yes. RentHuddle supports Zillow home detail pages and saves the details you approve to a structured Google Sheet.</p></details><details><summary>Does RentHuddle support Zoopla?</summary><p>Yes. It supports Zoopla sale, rental and new-home detail pages.</p></details><details><summary>When does RentHuddle read a property page?</summary><p>The extension checks whether the current page is supported and reads its property details when you choose Capture Property. It does not run a developer-operated crawler.</p></details><details><summary>Where is my property data stored?</summary><p>The property data you approve is stored in the Google Sheet you select. A reference to that Sheet and your consent choice are stored locally in Chrome.</p></details><details><summary>Can RentHuddle access all of my Google Drive files?</summary><p>No. RentHuddle requests Google’s narrower <code>drive.file</code> permission. It is designed for Sheets the extension creates or that you explicitly select for use with RentHuddle, rather than unrestricted access to every Drive file.</p></details><details><summary>Does RentHuddle have a backend?</summary><p>No. RentHuddle has no developer-operated backend. Approved property data is sent directly from the extension to the Google Sheets API; Google processes it under the terms for your account.</p></details><details><summary>Is RentHuddle free?</summary><p>Yes. The current Chrome extension is free to install and use.</p></details><details><summary>Which browsers and property sites are supported?</summary><p>RentHuddle supports Google Chrome. Its current site integrations cover Rightmove property pages, Zoopla sale, rental and new-home detail pages, and Zillow home detail pages.</p></details></div></section>
+
+      <section class="section support-callout"><div><p class="eyebrow">Support</p><h2>Questions, private help or a technical bug?</h2><p>Email <a href="mailto:bnc4vk@gmail.com">bnc4vk@gmail.com</a> for private support. Public GitHub issues remain available for technical reports that contain no property URLs, OAuth information or personal details.</p></div><a class="button" href="/renthuddle-site/support/">Get support</a></section>
     </main>
+    <footer><div><a class="brand" href="/renthuddle-site/"><img src="/renthuddle-site/assets/icon-128.png" alt="" width="36" height="36"><span>RentHuddle</span></a><p>Published by Brahe Labs.</p></div><nav aria-label="Footer"><a href="/renthuddle-site/privacy/">Privacy</a><a href="/renthuddle-site/support/">Support</a><a href="/renthuddle-site/rightmove-to-google-sheets/">Rightmove guide</a><a href="/renthuddle-site/compare-rentals-with-housemates/">Housemate guide</a></nav><p class="rename-note">RentHuddle was previously called Dwelly Sheets Property Saver.</p></footer>
   </body>
 </html>

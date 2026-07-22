@@ -1,0 +1,15 @@
+:root {
+  --teal: #06766f;
+  --muted: #4b6560;
+}
+
+.microcopy,
+figcaption {
+  color: #4f6661;
+}
+
+footer p,
+.rename-note {
+  color: #4c625e;
+  opacity: 1;
+}
